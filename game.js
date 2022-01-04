@@ -1,3 +1,32 @@
+Skip to content
+Search or jump to…
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@nicotho2a 
+nicotho2a
+/
+lejeudejeanphi
+Public
+Code
+Issues
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+Settings
+lejeudejeanphi/game.js /
+@nicotho2a
+nicotho2a Update game.js
+Latest commit 34b926b on 14 Nov 2021
+ History
+ 1 contributor
+122 lines (83 sloc)  3.91 KB
+   
 
 var buttonColours = ["red", "blue", "green", "yellow"];
 
@@ -9,7 +38,7 @@ var started = false;
 
 var level = 0;
 
-$(document).on('tap', function () {
+$(document).on('keyup', function () {
   if (!started) {
     $("#level-title").text("Level " + level);
     nextSequence();
@@ -120,3 +149,15 @@ function startOver() {
   gamePattern = [];
   started = false;
 }
+© 2022 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
